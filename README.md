@@ -22,9 +22,13 @@ optional arguments:
 # Adding to .bashrc or .zshrc
 add the following line in your .bashrc or .zshrc file
 ```
-alias s2k=<replace with path to s2k.py>
+alias s2k="<replace with path to s2k.py>"
 ```
-now the script can be run as a command (make sure that s2k is executable, can be done using ```chmod +x s2k.py```)
+now the script can be run as a command (make sure that s2k is executable, can be done using ```chmod +x s2k.py```) now you can drop the .py
+
+```
+command usage: s2k [-h] [-d] [-f] path
+```
 
 # Debugging
 modify the following to make it work on your pc in case you encounter any problems
