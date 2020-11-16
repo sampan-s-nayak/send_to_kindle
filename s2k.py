@@ -59,8 +59,8 @@ def convert_file(file_path):
     final_file_name = generate_output_file_name(f)
     extension = get_file_extension(f)
     if(extension not in EBOOK_FILE_FORMATS):
-        print(colored(f"{file_name} is not a valid ebook","yellow"))
-        print(colored(f"skippiing {file_name}..... ","yellow"))
+        print(colored(f"{f} is not a valid ebook","yellow"))
+        print(colored(f"skippiing {f}..... ","yellow"))
         return
     if (extension not in FORMATS_TO_IGNORE):
         print(colored(f"Converting : {f}","blue"))
